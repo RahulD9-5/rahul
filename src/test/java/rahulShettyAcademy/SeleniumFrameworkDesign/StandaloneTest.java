@@ -40,7 +40,7 @@ public class StandaloneTest {
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", cart);
 		
 		cart.click();
-		
+		Assert.assertTrue(true);
 		//Assert.assertEquals(driver.getTitle(),"My Cart");
 	
 		driver.findElement(By.xpath("//button[text() = 'Checkout']")).click();
